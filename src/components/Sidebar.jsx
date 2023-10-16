@@ -6,6 +6,7 @@ import { TooltipComponent } from '@syncfusion/ej2-react-popups';
 
 import { links } from '../data/dummy';
 import { useStateContext } from '../contexts/ContextProvider';
+import LogoCandice from './LogoCandice';
 
 const Sidebar = () => {
   const { currentColor, activeMenu, setActiveMenu, screenSize } =
@@ -32,7 +33,7 @@ const Sidebar = () => {
               onClick={handleCloseSideBar}
               className="flex items-center gap-3 mt-4 ml-3 text-xl font-extrabold tracking-tight dark:text-white text-slate-900"
             >
-              <SiShopware /> <span>Shoppy</span>
+              <LogoCandice /> <span>Genki Dama</span>
             </Link>
             <TooltipComponent content="Menu" position="BottomCenter">
               <button
