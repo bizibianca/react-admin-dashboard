@@ -1,6 +1,6 @@
 import React from 'react';
 import { BsCurrencyDollar } from 'react-icons/bs';
-import { GoPrimitiveDot } from 'react-icons/go';
+import { GoDotFill, GoPrimitiveDot } from 'react-icons/go';
 import { IoIosMore } from 'react-icons/io';
 import { DropDownListComponent } from '@syncfusion/ej2-react-dropdowns';
 
@@ -91,17 +91,21 @@ const Ecommerce = () => {
             <p className="text-xl font-semibold">Revenue Updates</p>
             <div className="flex items-center gap-4">
               <p className="flex items-center gap-2 text-gray-600 hover:drop-shadow-xl">
-                <span>{/* <GoPrimitiveDot /> */}</span>
+                <span>
+                  <GoDotFill />
+                </span>
                 <span>Expense</span>
               </p>
               <p className="flex items-center gap-2 text-green-400 hover:drop-shadow-xl">
-                <span>{/* <GoPrimitiveDot /> */}</span>
+                <span>
+                  <GoDotFill />
+                </span>
                 <span>Budget</span>
               </p>
             </div>
           </div>
           <div className="flex flex-wrap justify-center gap-10 mt-10">
-            <div className="pr-10 m-4 border-r-1 border-color">
+            <div className="pr-10 m-4  border-r-1 border-color">
               <div>
                 <p>
                   <span className="text-3xl font-semibold">$93,438</span>
@@ -144,7 +148,7 @@ const Ecommerce = () => {
         </div>
         <div>
           <div
-            className="p-4 m-3 rounded-2xl md:w-400"
+            className="p-4 m-3  rounded-2xl md:w-400"
             style={{ backgroundColor: currentColor }}
           >
             <div className="flex items-center justify-between ">
